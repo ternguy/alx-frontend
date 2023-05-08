@@ -1,29 +1,24 @@
-/*target the root element and define the following custom properties*/
+/* task 2 */
+html {
+    scroll-behavior: smooth;
+}
 
-:root{
-	--color-primary: #d73953;
-	--color-black:	#090909;
-	--color-white: #ffffff;
-	--color-light-grey: #f3f3f3;
-	--color-dark-grey: #353535;
-	--text-color: var(--color-black);
+body {
+    color: #161616;
 }
-html{
-	scroll-behavior: smooth;
-}
-body{
-	background-color: var(--text-color);
 
-}
 a {
-	background-color: var(--text-color);	
+    color: #161616;
 }
+
 .visually-hidden {
-	display: none;
+    display: none;
 }
+
 .card-category {
-	background-color: var(--color-primary);
+    color: #D73953;
 }
+
 .section-tagline {
-	background-clor: var(--color-primary);
+    color: #D73953;
 }
